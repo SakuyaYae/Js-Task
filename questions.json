@@ -1,0 +1,117 @@
+[
+  {
+    "question1": {
+      "question": "",
+      "yes": {
+        "pointsCat": 1,
+        "pointsDog": 1,
+        "pointsRabbit": 1,
+        "pointsFish": 0
+      },
+      "no": {
+        "pointsCat": 0,
+        "pointsDog": 0,
+        "pointsRabbit": 0,
+        "pointsFish": 1
+      }
+    },
+    "question2": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question3": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question4": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question5": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question6": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question7": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question8": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question9": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question10": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question11": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question12": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question13": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question14": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    },
+    "question15": {
+      "question": "",
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    }
+  }
+]
