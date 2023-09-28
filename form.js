@@ -16,6 +16,12 @@ const awnsers = {
   "date": ""
 };
 var awnser;
+var totalPoints = 0;
+
+function sortCompareNumbers(value1, value2) {
+  return value1 - value2;
+}
+
 
 resultArr.push(previusResults);
 
@@ -49,7 +55,23 @@ while (i < questionsArr.length) {
   }
 }
 
-resultArr.push(awnsers);
+totalPoints = awnsers.cat + awnsers.dog + awnsers.fish + awnsers.rabbit;
+
+awnsers.cat = (awnsers.cat / 100) * totalPoints;
+awnsers.dog = (awnsers.dog / 100) * totalPoints;
+awnsers.rabbit = (awnsers.rabbit / 100) * totalPoints;
+awnsers.fish = (awnsers.fish / 100) * totalPoints;
+
+const awnserArr = [awnsers.cat, awnsers.dog, awnsers.fish, awnsers.rabbit];
+
+awnserArr.sort(sortCompareNumbers);
+for (var i = 0; i < awnserArr.length; i++) {
+  awnserArr[i] += "%";
+}
+awnserArr.push(awnsers.name);
+awnserArr.push(awnsers.date);
+
+resultArr.push(awnserArr);
 
 fs.writeFile("./result.json", JSON.stringify(resultArr, null, 2), (err) => {
   if (err) throw err;
