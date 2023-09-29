@@ -1,229 +1,227 @@
 [
   {
-    "question1": {
-      "question": "Gillar du päls?",
-      "yes": {
-        "pointsCat": 1,
-        "pointsDog": 1,
-        "pointsRabbit": 1,
-        "pointsFish": 0
-      },
-      "no": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 0,
-        "pointsFish": 1
-      }
+    "question": "Gillar du päls?",
+    "yes": {
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
     },
-    "question2": {
-      "question": "Gillar du att var ute och gå med djur?",
-      "yes": {
-        "pointsCat": 1,
-        "pointsDog": 3,
-        "pointsRabbit": 0,
-        "pointsFish": 0
-      },
-      "no": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 1,
-        "pointsFish": 3
-      }
+    "no": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 0,
+      "pointsFish": 1
+    }
+  },
+  {
+    "question": "Gillar du att var ute och gå med djur?",
+    "yes": {
+      "pointsCat": 1,
+      "pointsDog": 3,
+      "pointsRabbit": 0,
+      "pointsFish": 0
     },
-    "question3": {
-      "question": "Gillar tysta djur?",
-      "yes": {
-        "pointsCat": 1,
-        "pointsDog": 0,
-        "pointsRabbit": 2,
-        "pointsFish": 4
-      },
-      "no": {
-        "pointsCat": 0,
-        "pointsDog": 2,
-        "pointsRabbit": 0,
-        "pointsFish": 0
-      }
+    "no": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 1,
+      "pointsFish": 3
+    }
+  },
+  {
+    "question": "Gillar tysta djur?",
+    "yes": {
+      "pointsCat": 1,
+      "pointsDog": 0,
+      "pointsRabbit": 2,
+      "pointsFish": 4
     },
-    "question4": {
-      "question": "Gillar du djur som lever i vatten?",
-      "yes": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 0,
-        "pointsFish": 2
-      },
-      "no": {
-        "pointsCat": 1,
-        "pointsDog": 1,
-        "pointsRabbit": 1,
-        "pointsFish": 0
-      }
+    "no": {
+      "pointsCat": 0,
+      "pointsDog": 2,
+      "pointsRabbit": 0,
+      "pointsFish": 0
+    }
+  },
+  {
+    "question": "Gillar du djur som lever i vatten?",
+    "yes": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 0,
+      "pointsFish": 2
     },
-    "question5": {
-      "question": "Gillar du att städa ofta?",
-      "yes": {
-        "pointsCat": 2,
-        "pointsDog": 1,
-        "pointsRabbit": 1,
-        "pointsFish": 1
-      },
-      "no": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 1,
-        "pointsFish": 2
-      }
+    "no": {
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    }
+  },
+  {
+    "question": "Gillar du att städa ofta?",
+    "yes": {
+      "pointsCat": 2,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 1
     },
-    "question6": {
-      "question": "Har du alergi mot pälsdjur?",
-      "yes": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 0,
-        "pointsFish": 4
-      },
-      "no": {
-        "pointsCat": 1,
-        "pointsDog": 1,
-        "pointsRabbit": 1,
-        "pointsFish": 1
-      }
+    "no": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 1,
+      "pointsFish": 2
+    }
+  },
+  {
+    "question": "Har du alergi mot pälsdjur?",
+    "yes": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 0,
+      "pointsFish": 4
     },
-    "question7": {
-      "question": "Gillar du att ha djur i bur?",
-      "yes": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 3,
-        "pointsFish": 0
-      },
-      "no": {
-        "pointsCat": 1,
-        "pointsDog": 1,
-        "pointsRabbit": 0,
-        "pointsFish": 1
-      }
+    "no": {
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 1
+    }
+  },
+  {
+    "question": "Gillar du att ha djur i bur?",
+    "yes": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 3,
+      "pointsFish": 0
     },
-    "question8": {
-      "question": "Gillar du att kela med djur?",
-      "yes": {
-        "pointsCat": 2,
-        "pointsDog": 2,
-        "pointsRabbit": 2,
-        "pointsFish": 0
-      },
-      "no": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 0,
-        "pointsFish": 2
-      }
+    "no": {
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 0,
+      "pointsFish": 1
+    }
+  },
+  {
+    "question": "Gillar du att kela med djur?",
+    "yes": {
+      "pointsCat": 2,
+      "pointsDog": 2,
+      "pointsRabbit": 2,
+      "pointsFish": 0
     },
-    "question9": {
-      "question": "Gillar du att behöva gå ut och rasta djur?",
-      "yes": {
-        "pointsCat": 0,
-        "pointsDog": 3,
-        "pointsRabbit": 0,
-        "pointsFish": 0
-      },
-      "no": {
-        "pointsCat": 2,
-        "pointsDog": 0,
-        "pointsRabbit": 2,
-        "pointsFish": 2
-      }
+    "no": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 0,
+      "pointsFish": 2
+    }
+  },
+  {
+    "question": "Gillar du att behöva gå ut och rasta djur?",
+    "yes": {
+      "pointsCat": 0,
+      "pointsDog": 3,
+      "pointsRabbit": 0,
+      "pointsFish": 0
     },
-    "question10": {
-      "question": "Gillar du att tvätta djur?",
-      "yes": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 0,
-        "pointsFish": 2
-      },
-      "no": {
-        "pointsCat": 1,
-        "pointsDog": 2,
-        "pointsRabbit": 1,
-        "pointsFish": 0
-      }
+    "no": {
+      "pointsCat": 2,
+      "pointsDog": 0,
+      "pointsRabbit": 2,
+      "pointsFish": 2
+    }
+  },
+  {
+    "question": "Gillar du att tvätta djur?",
+    "yes": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 0,
+      "pointsFish": 2
     },
-    "question11": {
-      "question": "Är du obekväm med att ha djur up på dig?",
-      "yes": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 1,
-        "pointsFish": 3
-      },
-      "no": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 0,
-        "pointsFish": 0
-      }
+    "no": {
+      "pointsCat": 1,
+      "pointsDog": 2,
+      "pointsRabbit": 1,
+      "pointsFish": 0
+    }
+  },
+  {
+    "question": "Är du obekväm med att ha djur up på dig?",
+    "yes": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 1,
+      "pointsFish": 3
     },
-    "question12": {
-      "question": "gillar du katter?",
-      "yes": {
-        "pointsCat": 3,
-        "pointsDog": 0,
-        "pointsRabbit": 0,
-        "pointsFish": 0
-      },
-      "no": {
-        "pointsCat": 0,
-        "pointsDog": 1,
-        "pointsRabbit": 1,
-        "pointsFish": 1
-      }
+    "no": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 0,
+      "pointsFish": 0
+    }
+  },
+  {
+    "question": "gillar du katter?",
+    "yes": {
+      "pointsCat": 3,
+      "pointsDog": 0,
+      "pointsRabbit": 0,
+      "pointsFish": 0
     },
-    "question13": {
-      "question": "Gillar du hundar?",
-      "yes": {
-        "pointsCat": 0,
-        "pointsDog": 3,
-        "pointsRabbit": 0,
-        "pointsFish": 0
-      },
-      "no": {
-        "pointsCat": 1,
-        "pointsDog": 0,
-        "pointsRabbit": 1,
-        "pointsFish": 1
-      }
+    "no": {
+      "pointsCat": 0,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 1
+    }
+  },
+  {
+    "question": "Gillar du hundar?",
+    "yes": {
+      "pointsCat": 0,
+      "pointsDog": 3,
+      "pointsRabbit": 0,
+      "pointsFish": 0
     },
-    "question14": {
-      "question": "gillar du kaniner?",
-      "yes": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 3,
-        "pointsFish": 0
-      },
-      "no": {
-        "pointsCat": 1,
-        "pointsDog": 1,
-        "pointsRabbit": 0,
-        "pointsFish": 1
-      }
+    "no": {
+      "pointsCat": 1,
+      "pointsDog": 0,
+      "pointsRabbit": 1,
+      "pointsFish": 1
+    }
+  },
+  {
+    "question": "gillar du kaniner?",
+    "yes": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 3,
+      "pointsFish": 0
     },
-    "question15": {
-      "question": "Gillar du fiskar?",
-      "yes": {
-        "pointsCat": 0,
-        "pointsDog": 0,
-        "pointsRabbit": 0,
-        "pointsFish": 3
-      },
-      "no": {
-        "pointsCat": 1,
-        "pointsDog": 1,
-        "pointsRabbit": 1,
-        "pointsFish": 0
-      }
+    "no": {
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 0,
+      "pointsFish": 1
+    }
+  },
+  {
+    "question": "Gillar du fiskar?",
+    "yes": {
+      "pointsCat": 0,
+      "pointsDog": 0,
+      "pointsRabbit": 0,
+      "pointsFish": 3
+    },
+    "no": {
+      "pointsCat": 1,
+      "pointsDog": 1,
+      "pointsRabbit": 1,
+      "pointsFish": 0
     }
   }
 ]
