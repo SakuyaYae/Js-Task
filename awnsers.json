@@ -1,8 +1,22 @@
 {
-  "cat": 0,
-  "dog": 0,
-  "rabbit": 0,
-  "fish": 0,
+  "result": [
+    {
+      "points": 0,
+      "animal": "Katt"
+    },
+    {
+      "points": 0,
+      "animal": "Hund"
+    },
+    {
+      "points": 0,
+      "animal": "Kanin"
+    },
+    {
+      "points": 0,
+      "animal": "Fisk"
+    }
+  ],
   "name": "",
   "date": ""
 }
