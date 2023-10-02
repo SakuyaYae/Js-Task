@@ -9,10 +9,6 @@ const resultArr = [];
 var awnser;
 var totalPoints = 0;
 
-function sortCompareNumbers(value1, value2) {
-  return value1 - value2;
-}
-
 resultArr.push(previusResults);
 
 console.log("Ange ditt namn: ");
@@ -27,17 +23,17 @@ while (i < questions.length) {
   awnser = userInput("").trim().toLowerCase();
 
   if (awnser === "ja") {
-    awnsers.cat += questions[i].yes.pointsCat;
-    awnsers.dog += questions[i].yes.pointsDog;
-    awnsers.rabbit += questions[i].yes.pointsRabbit;
-    awnsers.fish += questions[i].yes.pointsFish;
+    awnsers.result[0].points += questions[i].yes.pointsCat;
+    awnsers.result[1].points += questions[i].yes.pointsDog;
+    awnsers.result[2].points += questions[i].yes.pointsRabbit;
+    awnsers.result[3].points += questions[i].yes.pointsFish;
     i++;
   }
   else if (awnser === "nej") {
-    awnsers.cat += questions[i].no.pointsCat;
-    awnsers.dog += questions[i].no.pointsDog;
-    awnsers.rabbit += questions[i].no.pointsRabbit;
-    awnsers.fish += questions[i].no.pointsFish;
+    awnsers.result[0].points += questions[i].no.pointsCat;
+    awnsers.result[1].points += questions[i].no.pointsDog;
+    awnsers.result[2].points += questions[i].no.pointsRabbit;
+    awnsers.result[3].points += questions[i].no.pointsFish;
     i++
   }
   else {
@@ -45,30 +41,22 @@ while (i < questions.length) {
   }
 }
 
-totalPoints = awnsers.cat + awnsers.dog + awnsers.fish + awnsers.rabbit;
+totalPoints = awnsers.result[0].points + awnsers.result[1].points + awnsers.result[2].points + awnsers.result[3].points;
 
-awnsers.cat = (awnsers.cat / totalPoints) * 100;
-awnsers.dog = (awnsers.dog / totalPoints) * 100;
-awnsers.rabbit = (awnsers.rabbit / totalPoints) * 100;
-awnsers.fish = (awnsers.fish / totalPoints) * 100;
+awnsers.result[0].points = (awnsers.result[0].points / totalPoints) * 100;
+awnsers.result[1].points = (awnsers.result[1].points / totalPoints) * 100;
+awnsers.result[2].points = (awnsers.result[2].points / totalPoints) * 100;
+awnsers.result[3].points = (awnsers.result[3].points / totalPoints) * 100;
 
-const awnserArr = [awnsers.cat, awnsers.dog, awnsers.fish, awnsers.rabbit];
+awnsers.result.sort((pointValue1, pointValue2) => pointValue1.points - pointValue2.points);
 
-awnserArr.sort(sortCompareNumbers);
-
-for (var i = 0; i < awnserArr.length; i++) {
-  awnserArr[i] += "%";
+for (var i = 0; i < awnsers.result.length; i++) {
+  awnsers.result[i].points += "%";
 }
-awnserArr.push(awnsers.name);
-awnserArr.push(awnsers.date);
 
-resultArr.push(awnserArr);
-
-console.log(awnserArr);
+resultArr.push(awnsers);
 
 fs.writeFile("./result.json", JSON.stringify(resultArr, null, 2), (err) => {
   if (err) throw err;
   console.log("Form saved");
 });
-
-
