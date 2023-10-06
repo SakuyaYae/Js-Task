@@ -43,12 +43,12 @@ while (i < questions.length) {
 
 totalPoints = awnsers.result[0].points + awnsers.result[1].points + awnsers.result[2].points + awnsers.result[3].points;
 
-awnsers.result[0].points = (awnsers.result[0].points / totalPoints) * 100;
-awnsers.result[1].points = (awnsers.result[1].points / totalPoints) * 100;
-awnsers.result[2].points = (awnsers.result[2].points / totalPoints) * 100;
-awnsers.result[3].points = (awnsers.result[3].points / totalPoints) * 100;
+for (var i = 0; i < awnsers.result.length; i++) {
+  awnsers.result[i].points = (awnsers.result[i].points / totalPoints) * 100;
+}
 
 awnsers.result.sort((pointValue1, pointValue2) => pointValue1.points - pointValue2.points);
+awnsers.result.reverse();
 
 for (var i = 0; i < awnsers.result.length; i++) {
   awnsers.result[i].points += "%";
